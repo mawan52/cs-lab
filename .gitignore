@@ -1,0 +1,53 @@
+# OS / editor junk
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Typst generated output
+book/*.pdf
+book/*.png
+
+# Force diagrams/images to be SVG only
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.gif
+*.bmp
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# C / C++ build output, useful for later systems code
+*.o
+*.out
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+
+# General build/output folders
+build/
+dist/
+out/
+target/
+
+# Logs / temporary files
+*.log
+tmp/
+temp/
