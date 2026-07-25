@@ -1,5 +1,6 @@
 # cs-lab
-The main goal behind this repository and book, if you can call it that, is to help me gain deeper knowledge of computer science outside of school.
+The main goal behind this repository and book, if you can call it that, is to
+help me gain deeper knowledge of computer science outside of school.
 
 ## Roadmap
 
@@ -14,8 +15,45 @@ The main goal behind this repository and book, if you can call it that, is to he
 - [ ] Combinatorics (Permutations & Combinations)
 - [ ] Number Theory (Modular Arithmetic, Primes)
 - [ ] Asymptotic Analysis (Big O, Big Omega, Big Theta)
-- [ ] The C Programming Language
 
+- [ ] The C Programming Language
+  - [ ] Fundamentals
+    - [ ] Variables and primitive types
+    - [ ] Expressions and operators
+    - [ ] Conditional Statements
+    - [ ] Loops
+    - [ ] Functions
+    - [ ] Scope and storage duration
+    - [ ] Type conversions
+  - [ ] Memory and Data
+    - [ ] Character arrays and strings
+    - [ ] Pointers
+    - [ ] Pointer arithmetic
+    - [ ] Pointers and arrays
+    - [ ] Pointers to pointers
+    - [ ] Structs
+    - [ ] Unions
+    - [ ] Enums
+    - [ ] Function pointers
+  - [ ] Dynamic Memory
+    - [ ] 'malloc'
+    - [ ] 'calloc'
+    - [ ] 'realloc'
+    - [ ] 'free'
+    - [ ] Memory ownership
+    - [ ] Memory leaks
+    - [ ] Dangling pointers
+    - [ ] Double-free errors
+  - [ ] Low-Level C
+    - [ ] Bitwise operations
+    - [ ] Memory alignment
+    - [ ] Structure padding
+    - [ ] Endianness
+    - [ ] Undefined behaviour
+    - [ ] Implementation-defined behaviour
+    - [ ] Volatile objects
+    - [ ] Basic file input and output
+    - [ ] Error handling
 ---
 
 ### Data Structures
@@ -26,6 +64,7 @@ The main goal behind this repository and book, if you can call it that, is to he
   - [ ] Stack
   - [ ] Queue
   - [ ] Circular Queue
+  - [ ] Circular Buffer
 - [ ] Non-Linear
   - [ ] Hashmap (Collision handling)
   - [ ] Binary Tree
@@ -41,19 +80,29 @@ The main goal behind this repository and book, if you can call it that, is to he
 ### Algorithms
 Important: Traversal vs. Pathfinding
 
-- [x] Tree Traversal
-  - [x] BFS (Breadth First Search)
-  - [x] DFS (Depth First Search)
+- [ ] Techniques
+  - [ ] Iteration
+  - [ ] Recursion
+  - [ ] Divide and conquer
+  - [ ] Greedy algorithms
+  - [ ] Backtracking
+  - [ ] Heuristic
 
-- [ ] Pathfinding
-  - [x] Dijkstra
-  - [ ] A\*
+- [x] Tree Traversal
+  - [x] BFS (Breadth First Search) ![bfs.py](./algorithms/bfs/bfs.py)
+  - [x] DFS (Depth First Search) ![dfs.py](./algorithms/dfs/dfs.py)
+
+- [x] Pathfinding
+  - [x] Dijkstra ![dijkstra.py](./algorithms/dijkstra/dijkstra_pq.py)
+  - [x] A\* ![a_star.py](./algorithms/a_star/a_star.py)
 
 - [x] Sorting
-  - [x] Merge Sort
-  - [x] Quick Sort
+  - [x] Merge Sort ![merge-sort.py](./algorithms/merge-sort/merge-sort.py)
+  - [x] Quick Sort ![quick-sort.py](./algorithms/quick-sort/qs.py)
 
 - [ ] Graph Theory Basics
+  - [ ] Directed & Undirected Graphs
+  - [ ] Weighted & Unweighted Graphs
   - [ ] Trees
   - [ ] Cycles
   - [ ] Connectivity
@@ -61,6 +110,12 @@ Important: Traversal vs. Pathfinding
 ---
 
 ### Systems
+
+- [ ] Data Representation
+  - [ ] Bits and bytes
+  - [ ] Machine words
+  - [ ] Binary numbers
+  - [ ] Hexadecimal numbers
 
 - [ ] Memory Management
   - [ ] The Stack vs. The Heap
