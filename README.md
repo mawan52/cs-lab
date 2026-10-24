@@ -68,7 +68,7 @@ help me gain deeper knowledge of computer science outside of school.
 - [ ] Non-Linear
   - [ ] Hashmap (Collision handling)
   - [ ] Binary Tree
-  - [ ] Binary Search Tree (BST)
+  - [x] Binary Search Tree (BST) ![bst.c](./datastructures/binary-search-tree/c/bst.c)
   - [ ] AVL Tree (Self-balancing)
   - [ ] Heap (Min/Max)
 - [ ] Graph Representations
