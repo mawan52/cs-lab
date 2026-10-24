@@ -1,28 +1,33 @@
-#ifndef MAIN_H
-#define MAIN_H
+/*
+A Binary Search Tree (BST) is a special type of
+Binary Tree that follows an ordering rule:
+-   All values in the left subtree are smaller
+    than the value of the current node.
 
-typedef struct Node {
+-   All values in the right subtree are
+    greater than the value of the current node.
+*/
+
+#ifndef BST_H
+#define BST_H
+
+typedef struct Node
+{
     int value;
     int count;
-    struct Node* left;
-    struct Node* right;
-}   node_t;
+    struct Node *left;
+    struct Node *right;
+} node_t;
 
-typedef struct bst {
-    node_t* root;
-}   bst_t;
+node_t *createNode(int value);
 
-bst_t* createTree();
-node_t* createNode(int value);
+node_t *insert(node_t *root, int value);
+node_t *search(node_t *root, int value);
 
-node_t* insert(bst_t* bst, int value);
-node_t* search(bst_t* bst, int value);
+void freeTree(node_t *root);
 
-void freeTree(bst_t* bst);
+void preorder(node_t *root);
+void inorder(node_t *root);
+void postorder(node_t *root);
 
-void preorder(bst_t* bst);
-void inorder(bst_t* bst);
-void postorder(bst_t* bst);
-
-
-#endif
+#endif // BST_H
