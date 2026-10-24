@@ -12,16 +12,17 @@ typedef struct bst {
     node_t* root;
 }   bst_t;
 
+bst_t* createTree();
 node_t* createNode(int value);
 
-node_t* insert(node_t* root, int value);
-node_t* search(node_t* root, int value);
+node_t* insert(bst_t* bst, int value);
+node_t* search(bst_t* bst, int value);
 
-void freeTree(node_t* root);
+void freeTree(bst_t* bst);
 
-void preorder(node_t* root);
-void inorder(node_t* root);
-void postorder(node_t* root);
+void preorder(bst_t* bst);
+void inorder(bst_t* bst);
+void postorder(bst_t* bst);
 
 
 #endif
